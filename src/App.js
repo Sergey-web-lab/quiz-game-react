@@ -73,6 +73,11 @@ const questions = [
 ];
 
 function Result({ correctChoices }) {
+
+  const restart = () => {
+    window.location.reload();
+  }
+
   return (
     <div className="result">
       {
@@ -84,9 +89,7 @@ function Result({ correctChoices }) {
       }
 
       <h2>Вы правильно ответили на {correctChoices} из {questions.length} вопросов</h2>
-      <a href="/">
-        <button>Попробовать снова</button>
-      </a>
+      <button onClick={() => restart()}>Попробовать снова</button>
     </div>
   );
 }
