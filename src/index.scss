@@ -5,7 +5,6 @@ body {
   font-family: 'Nunito', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  // background-color: #8d5be2;
   background: linear-gradient(35deg, rgb(85, 19, 116) 5%, rgb(0, 212, 255) 100%);
   display: flex;
   align-items: center;
@@ -14,11 +13,17 @@ body {
 }
 
 .App {
-  width: 500px;
+  max-width: 500px;
   border-radius: 30px;
   padding: 40px;
   background-color: #fff;
   position: relative;
+
+  @media (max-width: 501px) {
+    h1 {
+      font-size: 25px;
+    }
+  }
 
   .result {
     text-align: center;
