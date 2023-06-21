@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/quiz-game-react/static/css/main.1bea9bd3.css",
+    "main.css": "/quiz-game-react/static/css/main.aaee5a6f.css",
     "main.js": "/quiz-game-react/static/js/main.c2d5671b.js",
     "static/media/sad.png": "/quiz-game-react/static/media/sad.90e97bd4bdd10e9cc687.png",
     "static/media/right.svg": "/quiz-game-react/static/media/right.33f57368fb3b1ee204f76610597f2ff6.svg",
     "static/media/round.svg": "/quiz-game-react/static/media/round.fa17c7eab9526f9fa5d3ad1763952fef.svg",
     "index.html": "/quiz-game-react/index.html",
     "static/media/wrong.svg": "/quiz-game-react/static/media/wrong.404125313bb0bd494913207adb7df9d8.svg",
-    "main.1bea9bd3.css.map": "/quiz-game-react/static/css/main.1bea9bd3.css.map",
+    "main.aaee5a6f.css.map": "/quiz-game-react/static/css/main.aaee5a6f.css.map",
     "main.c2d5671b.js.map": "/quiz-game-react/static/js/main.c2d5671b.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bea9bd3.css",
+    "static/css/main.aaee5a6f.css",
     "static/js/main.c2d5671b.js"
   ]
 }
