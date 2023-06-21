@@ -8,7 +8,7 @@ import right from './img/right.svg';
 
 const questions = [
   {
-    title: 'Ужасная оконная колючка. Что это?',
+    title: 'Ужасная оконная колючка. \nЧто это?',
     variants: [
       'Книга',
       'Пчела',
@@ -17,7 +17,7 @@ const questions = [
     correct: 2,
   },
   {
-    title: 'Эту посуду мы можем найти в то время, когда играют участники оркестра. Какую?',
+    title: 'Эту посуду мы можем найти в то время, когда играют участники оркестра. \nКакую?',
     variants: [
       'Блюдца',
       'Тарелки',
@@ -44,7 +44,7 @@ const questions = [
     correct: 0,
   },
   {
-    title: 'Каждый человек уносит это, если сейчас будет опасность. Что?',
+    title: 'Каждый человек уносит это, если сейчас будет опасность. \nЧто?',
     variants: [
       'Ценности',
       'Ноги',
@@ -53,7 +53,7 @@ const questions = [
     correct: 1,
   },
   {
-    title: 'Наполеон полагал, что именно это отделяет великое от смешного. Что?',
+    title: 'Наполеон полагал, что именно это отделяет великое от смешного. \nЧто?',
     variants: [
       'Один шаг',
       'Верное слово',
@@ -62,7 +62,7 @@ const questions = [
     correct: 0,
   },
   {
-    title: 'И день, и ночь этим заканчиваются. Чем?',
+    title: 'И день, и ночь этим заканчиваются. \nЧем?',
     variants: [
       'Ответом',
       'Сном',
@@ -103,7 +103,8 @@ function Game({ question, onClickVariant, step, clickedOnRightChoice, clickedOnW
       <div className="progress">
         <div style={{ width: `${percentage}%` }} className="progress__inner"></div>
       </div>
-      <h1>{question.title}</h1>
+      {/* <h1>{question.title}</h1> */}
+      <h1 >{question.title}</h1>
       <ul id='ul'>
         {question.variants.map((text, index) =>
           <div key={text}>
